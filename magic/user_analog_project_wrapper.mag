@@ -3106,7 +3106,7 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use 2-1MUX  2-1MUX_0 ~/Project/magic
+use 2-1MUX  2-1MUX_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700640585
 transform -1 0 27804 0 1 690920
 box -936 600 1824 2716
@@ -3114,23 +3114,23 @@ use 2-1MUX  2-1MUX_1
 timestamp 1700640585
 transform -1 0 52144 0 1 16720
 box -936 600 1824 2716
-use 02Compute  02Compute_0 ~/Project/magic
+use 02Compute  02Compute_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700640585
 transform 1 0 124446 0 1 43400
 box 30380 -25400 70090 70482
-use 04Compute  04Compute_0 ~/Project/magic
+use 04Compute  04Compute_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700640585
 transform 1 0 419426 0 1 43400
 box 30380 -25400 71679 46870
-use 4T4R#0  4T4R_0 ~/Project/magic
+use 4T4R  4T4R_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700618825
 transform -1 0 558480 0 1 667406
 box 462 854 1840 5424
-use 4T4R#0  4T4R_1
+use 4T4R  4T4R_1
 timestamp 1700618825
 transform -1 0 56600 0 1 272666
 box 462 854 1840 5424
-use 4T4RLarge  4T4RLarge_0 ~/Project/magic
+use 4T4RLarge  4T4RLarge_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700640568
 transform -1 0 447014 0 1 672750
 box 4508 -970 5974 6336
@@ -3138,35 +3138,35 @@ use 4T4RLarge  4T4RLarge_1
 timestamp 1700640568
 transform -1 0 55854 0 1 88830
 box 4508 -970 5974 6336
-use Buffer#0  Buffer_0 ~/Project/magic
+use Buffer  Buffer_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700618825
 transform 1 0 118522 0 1 691260
 box 1858 1360 3698 3442
-use Buffer#0  Buffer_1
+use Buffer  Buffer_1
 timestamp 1700618825
 transform -1 0 16718 0 1 679200
 box 1858 1360 3698 3442
-use oneBitADC#0  oneBitADC_0 ~/Project/magic
+use oneBitADC  oneBitADC_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700618825
 transform 1 0 67504 0 1 690452
 box 656 288 4296 4810
-use oneBitADC#0  oneBitADC_1
+use oneBitADC  oneBitADC_1
 timestamp 1700618825
 transform -1 0 54456 0 1 46952
 box 656 288 4296 4810
-use vDivider_02  vDivider_02_0 ~/Project/magic
+use vDivider_02  vDivider_02_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1697725649
 transform 1 0 4573 0 1 643674
 box -53 546 1014 3339
-use vDivider_3  vDivider_3_0 ~/Project/magic
+use vDivider_3  vDivider_3_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1697725649
 transform 1 0 5746 0 1 214786
 box -106 494 958 3686
-use vDivider_04  vDivider_04_0 ~/Project/magic
+use vDivider_04  vDivider_04_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1697725317
 transform 1 0 579813 0 1 639294
 box -53 546 1006 3139
-use vDivider_25  vDivider_25_0 ~/Project/magic
+use vDivider_25  vDivider_25_0 ~/ReRAM_Crossbar_Project/magic
 timestamp 1700613895
 transform 1 0 7286 0 1 216568
 box -106 492 958 6686
